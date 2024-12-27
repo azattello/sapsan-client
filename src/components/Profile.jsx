@@ -163,9 +163,9 @@ const Profile = () => {
                 ) : (
                     userData && (
                         <div>
-                            <p className="name info-el">{userData.name} {userData.surname}</p>
+                            <p className="name info-el">{userData.name}</p>
                             <p className="info-el">Телефон номер: {userData.phone}</p>
-                            <p className="info-el">ID номер: {userData.personalId}</p>
+                            <p className="info-el">ID номер: {userData.surname}</p>
                             <p className="info-el">Филиал: {userData.selectedFilial}</p>
                             <p className="info-el">{t('menu.passwd')}: {userData.password}</p>
                             <p className="info-el">Аккаунт создан: {formatDate(userData.createdAt)}</p>
