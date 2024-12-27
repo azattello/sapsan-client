@@ -65,10 +65,10 @@ const Registration = () => {
         <div className="form">
             <h1 className="h1-auth">Регистрация</h1>
             <div className="input__div"><img src={namePNG} alt="person" className="phonePNG"/>
-                <input value={name} onChange={(event) => setName(event.target.value)} type="text" className="input" placeholder="Имя"/>
+                <input value={name} onChange={(event) => setName(event.target.value)} type="text" className="input" placeholder="ФИО"/>
             </div>
             <div className="input__div"><img src={namePNG} alt="person" className="phonePNG"/>
-                <input value={surname} onChange={(event) => setSurname(event.target.value)} type="text" className="input" placeholder="Фамилия"/>
+                <input value={surname} onChange={(event) => setSurname(event.target.value)} type="text" className="input" placeholder="Личный код"/>
             </div>
             <div className="input__div"><img src={phonePNG} alt="Phone" className="phonePNG"/>
                 <input value={phone} onChange={(event) => setPhone(event.target.value)} type="number" className="input" placeholder="8............"/>
