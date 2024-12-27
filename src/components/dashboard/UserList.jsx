@@ -280,9 +280,9 @@ const UserList = () => {
         <table className="table">
           <thead>
             <tr>
+              <th>№</th>
+              <th>ФИО</th>
               <th>Код</th>
-              <th>Имя</th>
-              <th>Фамилия</th>
               <th>Номер</th>
               <th>Филиал</th>
               <th>Дата регистрации</th>
@@ -325,11 +325,11 @@ const UserList = () => {
                 <h2>Редактирование пользователя</h2>
                 <div className="modal-fields">
                   <div className="modal-field">
-                    <label>Имя:</label>
+                    <label>ФИО:</label>
                     <span>{currentUser.name}</span>
                   </div>
                   <div className="modal-field">
-                    <label>Фамилия:</label>
+                    <label>Личный код:</label>
                     <span>{currentUser.surname}</span>
                   </div>
                   <div className="modal-field">
